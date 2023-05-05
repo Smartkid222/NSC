@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>NSC</title>
+  <!---Custom Css File!--->
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <a href="#">Nifty<span>Steps</span></a>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Admissions</a></li>
+        <li><a href="#">Academics</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Our Team</a></li>
+      </ul>
+      <div class="buttons">
+        <a href="login.html" class="login">Login/SignUp</a>
+        <a href="signup.html" class="btn">Sign Up</a>
+      </div>
+      <div class="togs">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="sub">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Admissions</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Our Team</a></li>
+        </ul>
+        <div class="buttons">
+          <a href="login.html" class="login">Login/SignUp</a>
+          <a href="signup.html" class="btn">Sign Up</a>
+        </div>
+      </div>
+    </nav>
+    <script>
+      const togs = document.querySelector('.togs')
+      const togsIcon = document.querySelector('.togs i')
+      const sub = document.querySelector('.sub')
+
+      togs.onclick = function () {
+        sub.classList.togs('open')
+      }
+    </script>
+    <div class="content">
+      <h2>Hello Dear,<br>Welcome To Nifty Steps School</h2>
+      <p>An Educational institution designed to provide learning spaces and learning environment for teaching of students.</p>
+    </div>
+    <div class="link">
+      <a href="#" class="hire">Hire Me</a>
+    </div>
+  </div>
+      <div class="wrapper">
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-facebook-f"></i>
+            </div>
+            <samp><a href="https://www.facebook.com/login.php/">Facebook</a></samp>
+         </div>
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-twitter"></i>
+            </div>
+            <span>Twitter</span>
+         </div>
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
+         </div>
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-whatsapp"></i>
+            </div>
+            <span>WhatsApp</span>
+         </div>
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-youtube"></i>
+            </div>
+            <span>YouTube</span>
+         </div>
+      </div>
+</body>
+</html>
