@@ -31,29 +31,7 @@
       <div class="togs">
         <i class="fa-solid fa-bars"></i>
       </div>
-      <div class="sub">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Admissions</a></li>
-          <li><a href="#">Academics</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Our Team</a></li>
-        </ul>
-        <div class="buttons">
-          <a href="login.html" class="login">Login/SignUp</a>
-          <a href="signup.html" class="btn">Sign Up</a>
-        </div>
-      </div>
     </nav>
-    <script>
-      const togs = document.querySelector('.togs')
-      const togsIcon = document.querySelector('.togs i')
-      const sub = document.querySelector('.sub')
-
-      togs.onclick = function () {
-        sub.classList.togs('open')
-      }
-    </script>
     <div class="content">
       <h2>Hello Dear,<br>Welcome To Nifty Steps School</h2>
       <p>An Educational institution designed to provide learning spaces and learning environment for teaching of students.</p>
@@ -62,12 +40,19 @@
       <a href="#" class="hire">Hire Me</a>
     </div>
   </div>
+  <footer>
+   <div class="content">
+     <div class="top">
+       <div class="logo-details">
+         <i class="fab fa-slack"></i>
+         <span class="logo_name">Nifty Steps</span>
+       </div>
       <div class="wrapper">
          <div class="button">
             <div class="icon">
-               <i class="fab fa-facebook-f"></i>
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
             </div>
-            <samp><a href="https://www.facebook.com/login.php/">Facebook</a></samp>
+            <span>Facebook</span>
          </div>
          <div class="button">
             <div class="icon">
@@ -94,5 +79,45 @@
             <span>YouTube</span>
          </div>
       </div>
+      <div class="link-boxes">
+         <ul class="box">
+           <li class="link_name">Company</li>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Contact us</a></li>
+           <li><a href="#">About us</a></li>
+           <li><a href="#">Staffs</a></li>
+         </ul>
+         <ul class="box">
+           <li class="link_name">Services</li>
+           <li><a href="#">App design</a></li>
+           <li><a href="#">Web design</a></li>
+           <li><a href="#">Logo design</a></li>
+           <li><a href="#">Banner design</a></li>
+         </ul>
+         <ul class="box">
+           <li class="link_name">Account</li>
+           <li><a href="#">Profile</a></li>
+           <li><a href="#">My account</a></li>
+           <li><a href="#">Register</a></li>
+           <li><a href="#">Login</a></li>
+         </ul>
+         <ul class="box input-box">
+           <li class="link_name">loss password</li>
+           <li><input type="text" placeholder="Enter your email to creat new password"></li>
+           <li><input type="button" value="Submit"></li>
+         </ul>
+       </div>
+     </div>
+     <div class="bottom-details">
+       <div class="bottom_text">
+         <span class="copyright_text">Copyright © 2023 <a href="#">NiftySteps.</a>All rights reserved</span>
+         <span>Powered by SmartKid</span>
+         <span class="policy_terms">
+           <a href="#">Privacy policy</a>
+           <a href="#">Terms & condition</a>
+         </span>
+       </div>
+     </div>
+   </footer>
 </body>
 </html>
